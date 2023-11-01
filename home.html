@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style/swiper-bundle.min.css">
+    <script src="js/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
-                
+    <script defer src="js/script.js"></script>
 </head>
 <body>
     <header>
@@ -97,7 +99,47 @@
             <div class="container">
                 <p class="heading">продукция</p>
                 <h2>каталог</h2>
-                <!-- swiper -->
+                
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide catalog__item">
+                            <div class="catalog__name">серия "АТЛАС"</div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            <a href="" class="bottom__link">подробнее</a>
+                        </div>
+                        <div class="swiper-slide catalog__item">
+                            <div class="catalog__name">серия "ЛИГА"</div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            <a href="" class="bottom__link">подробнее</a>
+                        </div>
+                        <div class="swiper-slide catalog__item">
+                            <div class="catalog__name">серия "ТИТАН"</div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            <a href="" class="bottom__link">подробнее</a>
+                        </div>
+                        <div class="swiper-slide catalog__item">
+                            <div class="catalog__name">серия "АЗБУКА"</div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            <a href="" class="bottom__link">подробнее</a>
+                        </div>
+                        <div class="swiper-slide catalog__item">
+                            <div class="catalog__name">серия "ВИСТА"</div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            <a href="" class="bottom__link">подробнее</a>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  
+                    <!-- If we need scrollbar -->
+                    <!-- <div class="swiper-scrollbar"></div> -->
+                </div>
             </div>
         </section>
         <section class="discription">
@@ -134,17 +176,17 @@
                         <div class="news__date">новости | 15.08.23</div>
                         <div class="news__name">Губернаторский лицей в солнечном</div>
                         <p class="news__info">Совсем скоро в Екатеринбурге откроется современный губернаторский лицей. Сегодня мы поговорили с директором МК Титан Игорем Волковым о деталях проекта.</p>
-                        <div class="news__link">Читать далее</div>
+                        <a href="" class="bottom__link">Читать далее</a>
                     </li>
                     <li class="news__item news__item--win">
                         <div class="news__date">награды | 10.07.23</div>
                         <div class="news__name">Ура!! Победа!!</div>
-                        <div class="news__link">Читать далее</div>
+                        <a href="" class="bottom__link">Читать далее</a>
                     </li>
                     <li class="news__item news__item--resepshen">
                         <div class="news__date">советы | 13.06.23</div>
                         <div class="news__name">СТОЙКИ РЕСЕПШЕН: ЧТО НУЖНО ЗНАТЬ</div>
-                        <div class="news__link">Читать далее</div>
+                        <a href="" class="bottom__link">Читать далее</a>
                     </li>
                 </ul>
                 <a href="" class="news__all-news">Все новости</a>
