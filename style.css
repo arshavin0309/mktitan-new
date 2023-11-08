@@ -370,7 +370,7 @@ p {
     line-height: 150%; /* 42px */
     text-transform: uppercase;
 }
-.bottom__link {
+.bottom-link {
     position: absolute;
     bottom: 25px;
     left: 30px;
@@ -384,7 +384,7 @@ p {
     padding-right: 20px;
     background: url(img/arrow-right.svg) center right / 12px no-repeat;
 }
-.news__all-news {
+.wide-link {
     display: block;
     margin-top: 50px;
     margin-bottom: 100px;
@@ -460,7 +460,6 @@ p {
 }
 .btn-center {
     display: flex;
-    color: var(--Dark, #131B30);
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -469,12 +468,76 @@ p {
     justify-content: center;
     max-width: 250px;
     margin: auto;
-    border-color: #131B30;
     margin-top: 70px;
 }
-.btn-center::after {
+.btn-black {
+    border-color: #131B30;
+    color: var(--Dark, #131B30);
+}
+.btn-black::after {
     background-color: #131B30;
 }
+.catalog__box {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+.catalog__heading {
+    color: var(--Dark-grey, #B5B6BB);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.catalog__heading:not(:first-child) {
+    margin-top: 20px;
+}
+.catalog__checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.catalog__gap {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.catalog__gap input {
+    border-radius: 5px;
+    border: 1px solid var(--Grey, #EDEDED);
+    background: #F5F5F5;
+    color: var(--Secondary, #2C3754);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    padding: 4px 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .implemented__list {
     display: grid;
     gap: 30px;
@@ -489,8 +552,23 @@ p {
     border-radius: 10px;
     background: linear-gradient(180deg, #131B30 0%, rgba(19, 27, 48, 0.00) 100%);
 }
+.implemented__item--1 {
+    background: url(/img/implemented-item-1.jpg) center / cover no-repeat;
+}
+.implemented__item--2 {
+    background: url(/img/implemented-item-2.jpg) center / cover no-repeat;
+}
+.implemented__item--3 {
+    background: url(/img/implemented-item-3.jpg) center / cover no-repeat;
+}
 .implemented__title {
     color: var(--Secondary, #2C3754);
+}
+.implemented__item h4 {
+    margin-bottom: 30px;
+}
+.implemented__item .bottom-link {
+    position: initial;
 }
 
 
