@@ -116,6 +116,7 @@ h1 {
 }
 .btn {
     position: relative;
+    display: block;
     margin-top: 30px;
     padding: 20px 55px 20px 20px;
     color: #fff;
@@ -146,7 +147,7 @@ h1 {
 }
 .target__list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     align-items: center;
     justify-items: center;
     gap: 30px;
@@ -279,7 +280,7 @@ p {
     display: grid;
     gap: 30px;
     justify-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 }
 .discription__list a {
     position: relative;
@@ -408,7 +409,7 @@ p {
     display: grid;
     gap: 30px;
     justify-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(280px , 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px , 1fr));
     list-style: none;
 }
 .catalog-category__item {
@@ -477,6 +478,25 @@ p {
 .btn-black::after {
     background-color: #131B30;
 }
+.catalog_buttons {
+    width: 180px;
+}
+.catalog_buttons .btn {
+    width: 100%;
+}
+.btn-clear {
+    width: 100%;
+    margin-top: 20px;
+    background: none;
+    border: none;
+    color: var(--Dark-grey, #B5B6BB);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
 .catalog {
     margin-top: 50px;
     margin-bottom: 70px;
@@ -511,6 +531,12 @@ p {
     flex-direction: column;
     gap: 15px;
 }
+.catalog__colors {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
 .catalog__gap {
     display: flex;
     gap: 4px;
@@ -531,10 +557,13 @@ p {
 .catalog__products {
     display: grid;
     gap: 15px;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     justify-items: center;
     align-items: baseline;
     margin-bottom: 30px;
+}
+.catalog__products--school {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 .catalog__product {
     width: 100%;
@@ -546,6 +575,29 @@ p {
     border: 1px solid var(--Grey, #EDEDED);
     background: linear-gradient(180deg, #FFF 45.83%, #EDEDED 100%);
     overflow: auto;
+}
+.catalog__size {
+    color: var(--Dark-grey, #B5B6BB);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.catalog__inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.catalog__inputs > div {
+    display: flex;
+    gap: 15px;
+}
+.catalog__inputs label {
+    color: var(--Secondary, #2C3754);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .catalog__article {
     color: var(--Dark-grey, #B5B6BB);
@@ -658,7 +710,7 @@ p {
     gap: 30px;
     justify-items: center;
     list-style: none;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 }
 .implemented__item {
     width: 100%;
@@ -877,7 +929,7 @@ footer a {
         grid-column: auto;
     }
     .implemented__list {
-        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
     }
     .footer__logo {
         margin: auto;

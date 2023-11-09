@@ -86,67 +86,70 @@
                             </div>
                             <div>
                                 <input type="checkbox" id="checkbox-2">
-                                <label for="checkbox-2">Шкафы (00)</label>
+                                <label for="checkbox-2">Парты (00)</label>
                             </div>
                             <div>
                                 <input type="checkbox" id="checkbox-3">
-                                <label for="checkbox-3">Стеллажи (00)</label>
+                                <label for="checkbox-3">Стулья ученические (00)</label>
                             </div>
                             <div>
                                 <input type="checkbox" id="checkbox-4">
-                                <label for="checkbox-4">Тумбы (00)</label>
+                                <label for="checkbox-4">Шкафы (00)</label>
                             </div>
                             <div>
                                 <input type="checkbox" id="checkbox-5">
-                                <label for="checkbox-5">Приставки и подставки (00)</label>
+                                <label for="checkbox-5">Стеллажи (00)</label>
                             </div>
                             <div>
                                 <input type="checkbox" id="checkbox-6">
-                                <label for="checkbox-6">Кресла (00)</label>
+                                <label for="checkbox-6">Тумбы (00)</label>
                             </div>
                             <div>
                                 <input type="checkbox" id="checkbox-7">
-                                <label for="checkbox-7">Стулья (00)</label>
+                                <label for="checkbox-7">Приставки и подставки (00)</label>
                             </div>
                             <div>
                                 <input type="checkbox" id="checkbox-8">
-                                <label for="checkbox-8">Мягкая мебель (00)</label>
+                                <label for="checkbox-8">Для столовой</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="checkbox-9">
+                                <label for="checkbox-9">Для библиотеки</label>
+                            </div>
+                            
+                            <div>
+                                <input type="checkbox" id="checkbox-10">
+                                <label for="checkbox-10">Для актового зала</label>
+                            </div>
+                            
+                            <div>
+                                <input type="checkbox" id="checkbox-11">
+                                <label for="checkbox-11">Регулируемые (рост)</label>
+                            </div>
+                            
+                            <div>
+                                <input type="checkbox" id="checkbox-12">
+                                <label for="checkbox-12">Эргономичные (вырез)</label>
+                            </div>
+                            
+                            <div>
+                                <input type="checkbox" id="checkbox-13">
+                                <label for="checkbox-13">Углы радиусные</label>
+                            </div>
+                            
+                            <div>
+                                <input type="checkbox" id="checkbox-14">
+                                <label for="checkbox-14">Угол наклона (столешница)</label>
                             </div>
                         </div>
                         
-                        <div class="catalog__heading">Цвет ЛДСП:</div>
+                        <div class="catalog__heading">Цвет:</div>
                         <div class="catalog__colors">
                             <img src="/img/color-1.jpg" alt="цвет 1">
                             <img src="/img/color-2.jpg" alt="цвет 2">
                             <img src="/img/color-3.jpg" alt="цвет 3">
                             <img src="/img/color-4.jpg" alt="цвет 4">
                             <img src="/img/color-5.jpg" alt="цвет 5">
-                        </div>
-                        <div class="catalog__heading">Цвет каркаса:</div>
-                        <div class="catalog__colors">
-                            <img src="/img/color-1.jpg" alt="цвет 1">
-                            <img src="/img/color-2.jpg" alt="цвет 2">
-                            <img src="/img/color-3.jpg" alt="цвет 3">
-                            <img src="/img/color-4.jpg" alt="цвет 4">
-                            <img src="/img/color-5.jpg" alt="цвет 5">
-                        </div>
-                        <div class="catalog__heading">Длинна(мм):</div>
-                        <div class="catalog__gap">
-                            <input type="number">
-                            <div>—</div>
-                            <input type="number">
-                        </div>
-                        <div class="catalog__heading">Ширина(мм):</div>
-                        <div class="catalog__gap">
-                            <input type="number">
-                            <div>—</div>
-                            <input type="number">
-                        </div>
-                        <div class="catalog__heading">Высота(мм):</div>
-                        <div class="catalog__gap">
-                            <input type="number">
-                            <div>—</div>
-                            <input type="number">
                         </div>
                         <div class="catalog__heading">Стоимость (руб):</div>
                         <div class="catalog__gap">
@@ -154,16 +157,17 @@
                             <div>—</div>
                             <input type="number">
                         </div>
-                        <button class="btn btn-black">применить</button>
+                        <div class="catalog_buttons">
+                            <button class="btn btn-black">применить</button>
+                            <button class="btn-clear">очистить фильтр</button>
+                        </div>
                     </div>
-                    <div class="catalog__products">
+                    <div class="catalog__products catalog__products--school">
                         <div class="catalog__product">
                             <div class="catalog__article">Арт.: 000000000</div>
                             <img class="catalog__img" src="img/product-1.jpg" alt="наименование товара 1 фото">
-                            <a href="" class="catalog__title">Стол письменный на металлокаркасе</a>
-                            <select name="" id="">
-                                <option value="">Размер: 1800*800*750</option>
-                            </select>
+                            <a href="" class="catalog__title">Парта одноместная (регулируемая)</a>
+                            <div class="catalog__size">Размер:600*550*22</div>
                             <div class="catalog__colors">
                                 <img src="/img/color-1.jpg" alt="цвет 1">
                                 <img src="/img/color-2.jpg" alt="цвет 2">
@@ -171,258 +175,28 @@
                                 <img src="/img/color-4.jpg" alt="цвет 4">
                                 <img src="/img/color-5.jpg" alt="цвет 5">
                             </div>
-                            <div class="catalog__price">53 794р.</div>
-                            <button class="buy">в корзину</button>
-                        </div>
-                        <div class="catalog__product">
-                            <div class="catalog__article">Арт.: 000000000</div>
-                            <img class="catalog__img" src="img/product-2.jpg" alt="наименование товара 2 фото">
-                            <a href="" class="catalog__title">Стол письменный на металлокаркасе</a>
                             <select name="" id="">
-                                <option value="">Размер: 1800*800*750</option>
+                                <option value="">Ростовая группа: 1-3</option>
                             </select>
-                            <select name="" id="">
-                                <option value="">Левый</option>
-                            </select>
-                            <div class="catalog__colors">
-                                <img src="/img/color-1.jpg" alt="цвет 1">
-                                <img src="/img/color-2.jpg" alt="цвет 2">
+                            <div class="catalog__inputs">
+                                <div>
+                                    <input type="checkbox" id="checkbox-in-product-1">
+                                    <label for="checkbox-in-product-1">Эргономичная (вырез)</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="checkbox-in-product-2">
+                                    <label for="checkbox-in-product-2">Полка, пенал</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="checkbox-in-product-3">
+                                    <label for="checkbox-in-product-3">Угол наклона</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="checkbox-in-product-4">
+                                    <label for="checkbox-in-product-4">Радиус (углы)</label>
+                                </div>
                             </div>
-                            <div class="catalog__price">по запросу</div>
-                            <button class="buy">в корзину</button>
-                        </div>
-                        <div class="catalog__product">
-                            <div class="catalog__article">Арт.: 000000000</div>
-                            <img class="catalog__img" src="img/product-3.jpg" alt="наименование товара 3 фото">
-                            <a href="" class="catalog__title">Стол для переговоров “Дуб жженый”</a>
-                            <select name="" id="">
-                                <option value="">Размер: 2200*1200*740</option>
-                            </select>
-                            <div class="catalog__colors">
-                                <img src="/img/color-1.jpg" alt="цвет 1">
-                            </div>
-                            <div class="catalog__price">213 329р.</div>
-                            <button class="buy">в корзину</button>
-                        </div>
-                        <div class="catalog__product">
-                            <div class="catalog__article">Арт.: 000000000</div>
-                            <img class="catalog__img" src="img/product-4.jpg" alt="наименование товара 4 фото">
-                            <a href="" class="catalog__title">Стол письменный ВУ/СТ-3-212</a>
-                            <select name="" id="">
-                                <option value="">Размер: 1800*800*750</option>
-                            </select>
-                            <select name="" id="">
-                                <option value="">Левый</option>
-                            </select>
-                            <div class="catalog__colors">
-                                <img src="/img/color-1.jpg" alt="цвет 1">
-                                <img src="/img/color-2.jpg" alt="цвет 2">
-                                <img src="/img/color-3.jpg" alt="цвет 3">
-                                <img src="/img/color-4.jpg" alt="цвет 4">
-                                <img src="/img/color-5.jpg" alt="цвет 5">
-                            </div>
-                            <div class="catalog__price">150 979р.</div>
-                            <button class="buy">в корзину</button>
-                        </div>
-                        <div class="catalog__product">
-                            <div class="catalog__article">Арт.: 000000000</div>
-                            <img class="catalog__img" src="img/product-1.jpg" alt="наименование товара 1 фото">
-                            <a href="" class="catalog__title">Стол письменный на металлокаркасе</a>
-                            <select name="" id="">
-                                <option value="">Размер: 1800*800*750</option>
-                            </select>
-                            <div class="catalog__colors">
-                                <img src="/img/color-1.jpg" alt="цвет 1">
-                                <img src="/img/color-2.jpg" alt="цвет 2">
-                                <img src="/img/color-3.jpg" alt="цвет 3">
-                                <img src="/img/color-4.jpg" alt="цвет 4">
-                                <img src="/img/color-5.jpg" alt="цвет 5">
-                            </div>
-                            <div class="catalog__price">53 794р.</div>
-                            <button class="buy">в корзину</button>
-                        </div>
-                        <div class="catalog__product">
-                            <div class="catalog__article">Арт.: 000000000</div>
-                            <img class="catalog__img" src="img/product-2.jpg" alt="наименование товара 2 фото">
-                            <a href="" class="catalog__title">Стол письменный на металлокаркасе</a>
-                            <select name="" id="">
-                                <option value="">Размер: 1800*800*750</option>
-                            </select>
-                            <select name="" id="">
-                                <option value="">Левый</option>
-                            </select>
-                            <div class="catalog__colors">
-                                <img src="/img/color-1.jpg" alt="цвет 1">
-                                <img src="/img/color-2.jpg" alt="цвет 2">
-                            </div>
-                            <div class="catalog__price">по запросу</div>
-                            <button class="buy">в корзину</button>
-                        </div>
-                        <div class="catalog__product">
-                            <div class="catalog__article">Арт.: 000000000</div>
-                            <img class="catalog__img" src="img/product-3.jpg" alt="наименование товара 3 фото">
-                            <a href="" class="catalog__title">Стол для переговоров “Дуб жженый”</a>
-                            <select name="" id="">
-                                <option value="">Размер: 2200*1200*740</option>
-                            </select>
-                            <div class="catalog__colors">
-                                <img src="/img/color-1.jpg" alt="цвет 1">
-                            </div>
-                            <div class="catalog__price">213 329р.</div>
-                            <button class="buy">в корзину</button>
-                        </div>
-                        <div class="catalog__product">
-                            <div class="catalog__article">Арт.: 000000000</div>
-                            <img class="catalog__img" src="img/product-4.jpg" alt="наименование товара 4 фото">
-                            <a href="" class="catalog__title">Стол письменный ВУ/СТ-3-212</a>
-                            <select name="" id="">
-                                <option value="">Размер: 1800*800*750</option>
-                            </select>
-                            <select name="" id="">
-                                <option value="">Левый</option>
-                            </select>
-                            <div class="catalog__colors">
-                                <img src="/img/color-1.jpg" alt="цвет 1">
-                                <img src="/img/color-2.jpg" alt="цвет 2">
-                                <img src="/img/color-3.jpg" alt="цвет 3">
-                                <img src="/img/color-4.jpg" alt="цвет 4">
-                                <img src="/img/color-5.jpg" alt="цвет 5">
-                            </div>
-                            <div class="catalog__price">150 979р.</div>
-                            <button class="buy">в корзину</button>
-                        </div>
-                        <div class="catalog__product">
-                            <div class="catalog__article">Арт.: 000000000</div>
-                            <img class="catalog__img" src="img/product-1.jpg" alt="наименование товара 1 фото">
-                            <a href="" class="catalog__title">Стол письменный на металлокаркасе</a>
-                            <select name="" id="">
-                                <option value="">Размер: 1800*800*750</option>
-                            </select>
-                            <div class="catalog__colors">
-                                <img src="/img/color-1.jpg" alt="цвет 1">
-                                <img src="/img/color-2.jpg" alt="цвет 2">
-                                <img src="/img/color-3.jpg" alt="цвет 3">
-                                <img src="/img/color-4.jpg" alt="цвет 4">
-                                <img src="/img/color-5.jpg" alt="цвет 5">
-                            </div>
-                            <div class="catalog__price">53 794р.</div>
-                            <button class="buy">в корзину</button>
-                        </div>
-                        <div class="catalog__product">
-                            <div class="catalog__article">Арт.: 000000000</div>
-                            <img class="catalog__img" src="img/product-2.jpg" alt="наименование товара 2 фото">
-                            <a href="" class="catalog__title">Стол письменный на металлокаркасе</a>
-                            <select name="" id="">
-                                <option value="">Размер: 1800*800*750</option>
-                            </select>
-                            <select name="" id="">
-                                <option value="">Левый</option>
-                            </select>
-                            <div class="catalog__colors">
-                                <img src="/img/color-1.jpg" alt="цвет 1">
-                                <img src="/img/color-2.jpg" alt="цвет 2">
-                            </div>
-                            <div class="catalog__price">по запросу</div>
-                            <button class="buy">в корзину</button>
-                        </div>
-                        <div class="catalog__product">
-                            <div class="catalog__article">Арт.: 000000000</div>
-                            <img class="catalog__img" src="img/product-3.jpg" alt="наименование товара 3 фото">
-                            <a href="" class="catalog__title">Стол для переговоров “Дуб жженый”</a>
-                            <select name="" id="">
-                                <option value="">Размер: 2200*1200*740</option>
-                            </select>
-                            <div class="catalog__colors">
-                                <img src="/img/color-1.jpg" alt="цвет 1">
-                            </div>
-                            <div class="catalog__price">213 329р.</div>
-                            <button class="buy">в корзину</button>
-                        </div>
-                        <div class="catalog__product">
-                            <div class="catalog__article">Арт.: 000000000</div>
-                            <img class="catalog__img" src="img/product-4.jpg" alt="наименование товара 4 фото">
-                            <a href="" class="catalog__title">Стол письменный ВУ/СТ-3-212</a>
-                            <select name="" id="">
-                                <option value="">Размер: 1800*800*750</option>
-                            </select>
-                            <select name="" id="">
-                                <option value="">Левый</option>
-                            </select>
-                            <div class="catalog__colors">
-                                <img src="/img/color-1.jpg" alt="цвет 1">
-                                <img src="/img/color-2.jpg" alt="цвет 2">
-                                <img src="/img/color-3.jpg" alt="цвет 3">
-                                <img src="/img/color-4.jpg" alt="цвет 4">
-                                <img src="/img/color-5.jpg" alt="цвет 5">
-                            </div>
-                            <div class="catalog__price">150 979р.</div>
-                            <button class="buy">в корзину</button>
-                        </div>
-                        <div class="catalog__product">
-                            <div class="catalog__article">Арт.: 000000000</div>
-                            <img class="catalog__img" src="img/product-1.jpg" alt="наименование товара 1 фото">
-                            <a href="" class="catalog__title">Стол письменный на металлокаркасе</a>
-                            <select name="" id="">
-                                <option value="">Размер: 1800*800*750</option>
-                            </select>
-                            <div class="catalog__colors">
-                                <img src="/img/color-1.jpg" alt="цвет 1">
-                                <img src="/img/color-2.jpg" alt="цвет 2">
-                                <img src="/img/color-3.jpg" alt="цвет 3">
-                                <img src="/img/color-4.jpg" alt="цвет 4">
-                                <img src="/img/color-5.jpg" alt="цвет 5">
-                            </div>
-                            <div class="catalog__price">53 794р.</div>
-                            <button class="buy">в корзину</button>
-                        </div>
-                        <div class="catalog__product">
-                            <div class="catalog__article">Арт.: 000000000</div>
-                            <img class="catalog__img" src="img/product-2.jpg" alt="наименование товара 2 фото">
-                            <a href="" class="catalog__title">Стол письменный на металлокаркасе</a>
-                            <select name="" id="">
-                                <option value="">Размер: 1800*800*750</option>
-                            </select>
-                            <select name="" id="">
-                                <option value="">Левый</option>
-                            </select>
-                            <div class="catalog__colors">
-                                <img src="/img/color-1.jpg" alt="цвет 1">
-                                <img src="/img/color-2.jpg" alt="цвет 2">
-                            </div>
-                            <div class="catalog__price">по запросу</div>
-                            <button class="buy">в корзину</button>
-                        </div>
-                        <div class="catalog__product">
-                            <div class="catalog__article">Арт.: 000000000</div>
-                            <img class="catalog__img" src="img/product-3.jpg" alt="наименование товара 3 фото">
-                            <a href="" class="catalog__title">Стол для переговоров “Дуб жженый”</a>
-                            <select name="" id="">
-                                <option value="">Размер: 2200*1200*740</option>
-                            </select>
-                            <div class="catalog__colors">
-                                <img src="/img/color-1.jpg" alt="цвет 1">
-                            </div>
-                            <div class="catalog__price">213 329р.</div>
-                            <button class="buy">в корзину</button>
-                        </div>
-                        <div class="catalog__product">
-                            <div class="catalog__article">Арт.: 000000000</div>
-                            <img class="catalog__img" src="img/product-4.jpg" alt="наименование товара 4 фото">
-                            <a href="" class="catalog__title">Стол письменный ВУ/СТ-3-212</a>
-                            <select name="" id="">
-                                <option value="">Размер: 1800*800*750</option>
-                            </select>
-                            <select name="" id="">
-                                <option value="">Левый</option>
-                            </select>
-                            <div class="catalog__colors">
-                                <img src="/img/color-1.jpg" alt="цвет 1">
-                                <img src="/img/color-2.jpg" alt="цвет 2">
-                                <img src="/img/color-3.jpg" alt="цвет 3">
-                                <img src="/img/color-4.jpg" alt="цвет 4">
-                                <img src="/img/color-5.jpg" alt="цвет 5">
-                            </div>
-                            <div class="catalog__price">150 979р.</div>
+                            <div class="catalog__price">19 393р.</div>
                             <button class="buy">в корзину</button>
                         </div>
                     </div>
