@@ -12,7 +12,7 @@
 }
 * {
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     font-family: "PF Din Text Cond Pro";
     box-sizing: border-box;
 }
@@ -732,6 +732,7 @@ p {
 }
 .inner-hero h1 {
     color: #fff;
+    margin: 0;
 }
 .tags .container {
     display: flex;
@@ -842,15 +843,9 @@ p {
     bottom: 40px;
     left: 45px;
 }
-.policy-hero {
-    background: #F7F7F7;
-}
 .policy__info {
     padding-top: 40px;
     padding-bottom: 200px;
-}
-.policy-hero h1 {
-    color: var(--Secondary, #2C3754);
 }
 .policy__info p {
     color: var(--Secondary, #2C3754);
@@ -876,7 +871,25 @@ p {
     text-align: center;
     font-size: clamp(28px, 5vw, 48px);
 }
-
+.white-hero {
+    background: #F7F7F7;
+}
+.white-hero h1 {
+    color: var(--Secondary, #2C3754);
+}
+.delivery__info,
+.delivery__info p {
+    color: var(--Secondary, #2C3754);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    margin-bottom: 35px;
+}
+.delivery__info .container {
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
 
 
 
