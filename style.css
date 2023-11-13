@@ -91,6 +91,9 @@ header .container {
     background: url(img/hero.jpg) center / cover no-repeat;
     color: #fff;
 }
+.hero p {
+    color: #fff;
+}
 .gradient {
     background: linear-gradient(261deg, rgba(19, 27, 48, 0.30) 0%, rgba(19, 27, 48, 0.20) 0.01%, rgba(19, 27, 48, 0.80) 73.55%);
 }
@@ -146,6 +149,9 @@ h1 {
     padding-top: 50px;
     padding-bottom: 90px;
 }
+.target p {
+    color: #fff;
+}
 .target__list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
@@ -153,6 +159,7 @@ h1 {
     justify-items: center;
     gap: 30px;
     list-style: none;
+    padding: 0;
 }
 h2, .h2 {
     margin-bottom: 30px;
@@ -208,6 +215,9 @@ h4, .h4 {
 }
 .experience {
     background: url(img/experience.jpg) center / cover no-repeat;
+    color: #fff;
+}
+.experience p {
     color: #fff;
 }
 .experience .container {
@@ -318,6 +328,9 @@ p {
     height: 15px;
     background: url(img/arrow.svg) center / contain no-repeat;
 }
+.discription__list a.map::after {
+    background: url(img/arrow-black.svg) center / contain no-repeat;
+}
 .discription__list .guarantees {
     background: url(img/guarantees.png), lightgray 50% center / cover no-repeat;
 }
@@ -353,6 +366,7 @@ p {
     display: grid;
     gap: 30px;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
 }
 .news__item {
     position: relative;
@@ -680,6 +694,7 @@ p {
     justify-content: center;
     gap: 15px;
     list-style: none;
+    padding: 0;
 }
 .catalog__page {
     width: 24px;
@@ -707,6 +722,7 @@ p {
     justify-items: center;
     list-style: none;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    padding: 0;
 }
 .implemented__item {
     width: 100%;
@@ -740,6 +756,9 @@ p {
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
+}
+.hero h1 {
+    margin: 0;
 }
 .inner-hero h1 {
     color: #fff;
