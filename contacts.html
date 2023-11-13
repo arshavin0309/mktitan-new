@@ -9,6 +9,9 @@
     <script src="js/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <script defer src="js/script.js"></script>
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
+    </script>
 </head>
 
 <body>
@@ -229,24 +232,10 @@
                 </div>
             </div>
         </section>
-    </main>
-    <footer>
-        <div class="container">
-            <div class="footer__container">
-                <a class="header-logo footer__logo">
-                    <img src="img/logo.svg" alt="логотип" class="header-logo__img">
-                    <div class="header-logo__text footer-logo__text">
-                        <div>
-                            <div>Т</div>
-                            <div>И</div>
-                            <div>Т</div>
-                            <div>А</div>
-                            <div>Н</div>
-                        </div>
-                        <span>мебельная компания</span>
-                    </div>
-                </a>
-                <ul class="footer__list">
+        <section class="contacts__info">
+            <div class="container">
+                <ul class="contacts__list">
+                    <li id="map" class="footer__item contacts__map"></li>
                     <li class="footer__item">
                         <div class="footer__title">Адреса шоурумов:</div>
                         <div class="heading">офис:</div>
@@ -276,7 +265,9 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </section>
+    </main>
+    <footer class="footer-in-contacts">
         <div class="container footer__info">© Все права защищены. Информация сайта защищена законом об авторских правах.
             Цены указанные на сайте, согласно статьи 437 ГК РФ не являются публичной офертой, а носят исключительно
             информационный характер.</div>
