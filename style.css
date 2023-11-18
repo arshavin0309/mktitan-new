@@ -168,19 +168,20 @@ h2, .h2 {
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
+    color: var(--Secondary, #2C3754);
 }
 h3, .h3 {
     margin-bottom: 10px;
-    color: var(--White, #FFF);
     font-size: 48px;
     font-size: clamp(28px, 5vw, 48px);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
+    color: var(--Secondary, #2C3754);
 }
 h4, .h4 {
-    color: var(--White, #FFF);
+    color: var(--Secondary, #2C3754);
     font-size: clamp(24px, 5vw, 36px);
     font-style: normal;
     font-weight: 400;
@@ -801,6 +802,9 @@ p {
     padding-bottom: 50px;
     color: #131B30;
 }
+.news__info {
+    color: #fff;
+}
 .news-catalog .news__item a {
     color: #131B30;
 }
@@ -1036,8 +1040,41 @@ p {
     border-radius: 7px;
     overflow: hidden;
 }
-
-
+.about-us__hero {
+    background: url('/img/about-us-hero.jpg') center / cover no-repeat;
+}
+.about-us__text {
+    margin: 70px auto;
+    color: var(--Secondary, #2C3754);
+}
+.player .container {
+    padding: 0 30px;
+    margin-bottom: 100px;
+}
+.player img {
+    width: 100%;
+}
+.discription h2 {
+    text-align: center;
+}
+.our-production h2 {
+    text-align: center;
+}
+.our-production .about-us__text p {
+    margin: 0;
+}
+.gallery .container {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    margin: 30px auto;
+}
+.gallery img {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+    object-position: center;
+}
 
 
 
@@ -1184,6 +1221,9 @@ footer a {
     }
 }
 @media (max-width: 1024px) {
+    .hero p {
+        margin-top: 35px;
+    }
     .header-nav,
     .header-contacts__list,
     .header-contacts__vk,
@@ -1237,6 +1277,9 @@ footer a {
         padding: 95px 20px 155px;
     }
     .target__list {
+        grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    }
+    .gallery .container {
         grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
     }
     .news__list {
