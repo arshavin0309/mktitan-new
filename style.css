@@ -1047,8 +1047,8 @@ p {
     margin: 70px auto;
     color: var(--Secondary, #2C3754);
 }
-.player .container {
-    padding: 0 30px;
+.player {
+    margin-top: 30px;
     margin-bottom: 100px;
 }
 .player img {
@@ -1063,7 +1063,7 @@ p {
 .our-production .about-us__text p {
     margin: 0;
 }
-.gallery .container {
+.gallery {
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
@@ -1075,6 +1075,49 @@ p {
     object-fit: cover;
     object-position: center;
 }
+.reviews {
+    padding: 90px 0;
+    text-align: center;
+    background: var(--Light-grey, #F7F7F7);
+}
+.reviews__list .swiper-slide {
+    height: 600px !important;
+    object-fit: cover;
+}
+.swiper-button-next {
+    background: url(img/arrow-right-blue.svg) #2C3754 center no-repeat;
+}
+.swiper-button-prev {
+    background: url(img/arrow-left-blue.svg) #2C3754 center no-repeat;
+}
+.reviews .swiper-pagination
+{
+    position: initial !important;
+    margin-top: 30px;
+}
+.awards {
+    padding: 100px 0;
+}
+.awards h2 {
+    text-align: center;
+}
+.awards__list {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.awards__date {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #D9D9D9;
+}
+.awards__info {
+    padding-top: 15px;
+    padding-left: 20%;
+    border-top: 1px solid #D9D9D9;
+}
+
+
 
 
 
@@ -1270,6 +1313,9 @@ footer a {
     }
     .implemented__item {
         height: auto;
+    }
+    .reviews__list .swiper-slide {
+        height: 420px !important;
     }
 }
 @media (max-width: 768px) {
