@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/swiper-bundle.min.css">
+    <script src="js/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="js/script.js"></script>
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="gradient">
+            <div class="container">
+                <a class="header-logo">
+                    <img src="img/logo.svg" alt="логотип" class="header-logo__img">
+                    <div class="header-logo__text">
+                        <div>
+                            <div>Т</div>
+                            <div>И</div>
+                            <div>Т</div>
+                            <div>А</div>
+                            <div>Н</div>
+                        </div>
+                        <span>мебельная компания</span>
+                    </div>
+                </a>
+                <nav class="header-nav">
+                    <a href="" class="header-nav__link">Каталог</a>
+                    <a href="" class="header-nav__link">О компании</a>
+                    <a href="" class="header-nav__link">Наши дилеры</a>
+                    <a href="" class="header-nav__link">Новости</a>
+                    <a href="" class="header-nav__link">Портфолио</a>
+                    <a href="" class="header-nav__link">Доставка</a>
+                    <a href="" class="header-nav__link">Контакты</a>
+                </nav>
+                <div class="header-contacts">
+                    <div class="header-contacts__list">
+                        <a href="tel:+7(343) 222-15-65" class="header-contacts__tel">+7(343) 222-15-65</a>
+                        <a href="mailto:info@mktitan.ru" class="header-contacts__mail">info@mktitan.ru</a>
+                    </div>
+                    <a href="" class="header-contacts__vk">
+                        <img src="img/vk.svg" alt="иконка вк">
+                    </a>
+                    <a href="" class="header-contacts__telegram">
+                        <img src="img/telegram.svg" alt="иконка телеграм">
+                    </a>
+                    <button class="header-contacts__cart">
+                        <img src="img/cart.svg" alt="иконка корзины">
+                    </button>
+                    <button class="header-burger">
+                        <img src="img/burger.svg" alt="иконка меню">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h2>оформление заказа</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam quis enim lobortis scelerisque. Faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Nulla malesuada pellentesque elit eget gravida cum sociis. Facilisi etiam dignissim diam quis enim lobortis scelerisque. Consectetur adipiscing elit ut aliquam purus.</p>
+            <div class="order-page__list">
+                <div class="order-page__item">
+                    <img src="img/order1.jpg" alt="наименование + фото товара">
+                    <div class="order-page__box">
+                        <div class="order-page__articul">Арт.: 000000000</div>
+                        <div class="order-page__content">
+                            <div class="order-page__left">
+                                <div class="order-page__name">Стол письменный ВУ/СТ-3-212</div>
+                            </div>
+                            <div class="order-page__right">
+                                <div class="order-page__price-one">120 979р.</div>
+                                <div class="order-page__number-box">
+                                    <button class="order-page__add">+</button>
+                                    <div class="order-page__number">01</div>
+                                    <button class="order-page__delete">-</button>
+                                </div>
+                                <div class="order-page__price-all">120 979р.</div>
+                                <button class="order-page__clear"></button>
+                            </div>
+                        </div>
+                        <div class="order-page__info">
+                            <div class="order-page__size">
+                                <div>Размер: </div>
+                                <select name="" id="">
+                                    <option value="">2128*1792*750</option>
+                                </select>
+                            </div>
+                            <div class="order-page__position">
+                                <div>Положение: </div>
+                                <select name="" id="">
+                                    <option value="">Левый</option>
+                                </select>
+                            </div>
+                            <div class="order-page__color">
+                                <div>Цвет: </div>
+                                <select name="" id="">
+                                    <option value="">Серый</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-page__item">
+                    <img src="img/order1.jpg" alt="наименование + фото товара">
+                    <div class="order-page__box">
+                        <div class="order-page__articul">Арт.: 000000000</div>
+                        <div class="order-page__content">
+                            <div class="order-page__left">
+                                <div class="order-page__name">Стол письменный ВУ/СТ-3-212</div>
+                            </div>
+                            <div class="order-page__right">
+                                <div class="order-page__price-one">120 979р.</div>
+                                <div class="order-page__number-box">
+                                    <button class="order-page__add">+</button>
+                                    <div class="order-page__number">01</div>
+                                    <button class="order-page__delete">-</button>
+                                </div>
+                                <div class="order-page__price-all">120 979р.</div>
+                                <button class="order-page__clear"></button>
+                            </div>
+                        </div>
+                        <div class="order-page__info">
+                            <div class="order-page__size">
+                                <div>Размер: </div>
+                                <select name="" id="">
+                                    <option value="">2128*1792*750</option>
+                                </select>
+                            </div>
+                            <div class="order-page__position">
+                                <div>Положение: </div>
+                                <select name="" id="">
+                                    <option value="">Левый</option>
+                                </select>
+                            </div>
+                            <div class="order-page__color">
+                                <div>Цвет: </div>
+                                <select name="" id="">
+                                    <option value="">Серый</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-page__item">
+                    <img src="img/order1.jpg" alt="наименование + фото товара">
+                    <div class="order-page__box">
+                        <div class="order-page__articul">Арт.: 000000000</div>
+                        <div class="order-page__content">
+                            <div class="order-page__left">
+                                <div class="order-page__name">Стол письменный ВУ/СТ-3-212</div>
+                            </div>
+                            <div class="order-page__right">
+                                <div class="order-page__price-one">120 979р.</div>
+                                <div class="order-page__number-box">
+                                    <button class="order-page__add">+</button>
+                                    <div class="order-page__number">01</div>
+                                    <button class="order-page__delete">-</button>
+                                </div>
+                                <div class="order-page__price-all">120 979р.</div>
+                                <button class="order-page__clear"></button>
+                            </div>
+                        </div>
+                        <div class="order-page__info">
+                            <div class="order-page__size">
+                                <div>Размер: </div>
+                                <select name="" id="">
+                                    <option value="">2128*1792*750</option>
+                                </select>
+                            </div>
+                            <div class="order-page__position">
+                                <div>Положение: </div>
+                                <select name="" id="">
+                                    <option value="">Левый</option>
+                                </select>
+                            </div>
+                            <div class="order-page__color">
+                                <div>Цвет: </div>
+                                <select name="" id="">
+                                    <option value="">Серый</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-page__item">
+                    <img src="img/order1.jpg" alt="наименование + фото товара">
+                    <div class="order-page__box">
+                        <div class="order-page__articul">Арт.: 000000000</div>
+                        <div class="order-page__content">
+                            <div class="order-page__left">
+                                <div class="order-page__name">Стол письменный ВУ/СТ-3-212</div>
+                            </div>
+                            <div class="order-page__right">
+                                <div class="order-page__price-one">120 979р.</div>
+                                <div class="order-page__number-box">
+                                    <button class="order-page__add">+</button>
+                                    <div class="order-page__number">01</div>
+                                    <button class="order-page__delete">-</button>
+                                </div>
+                                <div class="order-page__price-all">120 979р.</div>
+                                <button class="order-page__clear"></button>
+                            </div>
+                        </div>
+                        <div class="order-page__info">
+                            <div class="order-page__size">
+                                <div>Размер: </div>
+                                <select name="" id="">
+                                    <option value="">2128*1792*750</option>
+                                </select>
+                            </div>
+                            <div class="order-page__position">
+                                <div>Положение: </div>
+                                <select name="" id="">
+                                    <option value="">Левый</option>
+                                </select>
+                            </div>
+                            <div class="order-page__color">
+                                <div>Цвет: </div>
+                                <select name="" id="">
+                                    <option value="">Серый</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-page__item">
+                    <img src="img/order1.jpg" alt="наименование + фото товара">
+                    <div class="order-page__box">
+                        <div class="order-page__articul">Арт.: 000000000</div>
+                        <div class="order-page__content">
+                            <div class="order-page__left">
+                                <div class="order-page__name">Стол письменный ВУ/СТ-3-212</div>
+                            </div>
+                            <div class="order-page__right">
+                                <div class="order-page__price-one">120 979р.</div>
+                                <div class="order-page__number-box">
+                                    <button class="order-page__add">+</button>
+                                    <div class="order-page__number">01</div>
+                                    <button class="order-page__delete">-</button>
+                                </div>
+                                <div class="order-page__price-all">120 979р.</div>
+                                <button class="order-page__clear"></button>
+                            </div>
+                        </div>
+                        <div class="order-page__info">
+                            <div class="order-page__size">
+                                <div>Размер: </div>
+                                <select name="" id="">
+                                    <option value="">2128*1792*750</option>
+                                </select>
+                            </div>
+                            <div class="order-page__position">
+                                <div>Положение: </div>
+                                <select name="" id="">
+                                    <option value="">Левый</option>
+                                </select>
+                            </div>
+                            <div class="order-page__color">
+                                <div>Цвет: </div>
+                                <select name="" id="">
+                                    <option value="">Серый</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="order-page__other">
+                <div class="order-page__btn-clear">Очистить корзину</div>
+                <div class="order-page__total-box">
+                    <div class="order-page__total-number">Кол-во позиций: 05</div>
+                    <div class="order-page__total-price">Сумма заказа: 524 193р.</div>
+                </div>
+            </div>
+            <p style="text-align: center;">*Стоимость заказа является предварительной и не является публичной офертой.Точную стоимость заказа, информацию по доставке, сборке и срокам изготовления уточняйте у менеджера</p>
+            <a class="download" href="">Распечатать заказ (pdf)</a>
+            <form action="" class="order-page__form">
+                <label for="" class="order-page__lable">
+                    <div>Наименование организации:</div>
+                    <input type="text" class="order-page__input">
+                </label>
+                <label for="" class="order-page__lable">
+                    <div>Город:</div>
+                    <input type="text" class="order-page__input">
+                </label>
+                <label for="" class="order-page__lable">
+                    <div>Контактное лицо:<span>*</span></div>
+                    <input type="email" class="order-page__input">
+                </label>
+                <label for="" class="order-page__lable">
+                    <div>Email:<span>*</span></div>
+                    <input type="tel" class="order-page__input">
+                </label>
+                <label for="" class="order-page__lable">
+                    <div>Телефон:<span>*</span></div>
+                    <input type="text" class="order-page__input">
+                </label>
+                <label for="" class="order-page__lable">
+                    <div>Комментарий к заказу:</div>
+                    <textarea name="" id="" cols="30" rows="10" class="order-page__input"></textarea>
+                </label>
+                <label for="" class="order-page__lable">
+                    <div>Прикрепите реквизиты (doc,docx,pdf):</div>
+                    <input type="file" class="order-page__input">
+                </label>
+            </form>
+            <div class="order-page__form-other">
+                <label for="polit">
+                    <input id="polit" type="checkbox">
+                    Нажима кн. “Заказать” вы соглашаетесь с нашей <a href="">политикой конфиденциальности</a>
+                </label>
+                <button class="btn btn-black">заказать</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer__container">
+                <a class="header-logo footer__logo">
+                    <img src="img/logo.svg" alt="логотип" class="header-logo__img">
+                    <div class="header-logo__text footer-logo__text">
+                        <div>
+                            <div>Т</div>
+                            <div>И</div>
+                            <div>Т</div>
+                            <div>А</div>
+                            <div>Н</div>
+                        </div>
+                        <span>мебельная компания</span>
+                    </div>
+                </a>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <div class="footer__title">Адреса шоурумов:</div>
+                        <div class="heading">офис:</div>
+                        <address>620014, г. Екатеринбург,<br> ул. Юмашева, д.7, 1 этаж</address>
+                    </li>
+                    <li class="footer__item">
+                        <div class="footer__title">Отдел продаж:</div>
+                        <div class="heading">телефон (многоканальный):</div>
+                        <a href="tel:+7 (343) 222-15-65">+7 (343) 222-15-65</a>
+                        <div class="heading">e-mail:</div>
+                        <a href="mailto:info@mktitan.ru">info@mktitan.ru</a>
+                    </li>
+                    <li class="footer__item">
+                        <div class="footer__title">Отдел логистики:</div>
+                        <div class="heading">телефон (многоканальный):</div>
+                        <a href="tel:+7 (343) 311-20-90">+7 (343) 311-20-90</a>
+                        <div class="heading">e-mail:</div>
+                        <a href="mailto:skl@mktitan.ru">skl@mktitan.ru</a>
+                    </li>
+                    <li class="footer__item">
+                        <div class="footer__title">Социальные сети:</div>
+                        <div class="footer__social">
+                            <a href="">vk</a>
+                            <a href="">telegram</a>
+                            <a href="">in***gram</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer__info">© Все права защищены. Информация сайта защищена законом об авторских правах.
+            Цены указанные на сайте, согласно статьи 437 ГК РФ не являются публичной офертой, а носят исключительно
+            информационный характер.</div>
+    </footer>
+</body>
+
+</html>
