@@ -1751,6 +1751,7 @@ footer a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    cursor: pointer;
 }
 
 .order-page__total-box {
@@ -1865,7 +1866,31 @@ textarea.order-page__input,
 .order-page__form-other .btn {
     margin: 0;
 }
-
+.series-category__list {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    margin-bottom: 30px;
+}
+.series-category__item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 7px;
+    background: #F7F7F7;
+    color: var(--Secondary, #2C3754);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 27px */
+    text-transform: uppercase;
+}
+.series-category__item img {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+}
 
 
 
