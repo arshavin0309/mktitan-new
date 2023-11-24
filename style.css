@@ -1967,6 +1967,11 @@ textarea.order-page__input,
     line-height: normal;
     text-transform: uppercase;
 }
+.product__card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .product__card--text {
     color: var(--Secondary, #2C3754);
     font-size: 16px;
@@ -2075,8 +2080,22 @@ textarea.order-page__input,
 .accessories__item .buy {
     margin-left: auto;
 }
-
-
+.product__box--checkboxes {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product__box--label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--Secondary, #2C3754);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
 
 
 
