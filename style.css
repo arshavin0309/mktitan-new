@@ -1940,6 +1940,16 @@ textarea.order-page__input,
 .product__name {
     margin-bottom: 40px;
 }
+ul {
+    margin-bottom: 30px;
+}
+li {
+    color: var(--Secondary, #2C3754);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
 .product__articul {
     color: var(--Dark-grey, #B5B6BB);
     font-size: 14px;
