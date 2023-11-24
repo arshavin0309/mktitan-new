@@ -621,6 +621,7 @@ p {
     max-width: 250px;
     margin: auto;
     margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 .btn-black {
@@ -2123,6 +2124,12 @@ textarea.order-page__input,
 }
 
 @media (max-width: 1024px) {
+    .product__box {
+        flex-direction: column;
+    }
+    .product__box--left {
+        grid-template-columns: 1fr 1fr;
+    }
     .product__list {
         gap: 20px;
         grid-template-columns: 1fr;
