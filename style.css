@@ -197,6 +197,7 @@ h1 {
     gap: 30px;
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 h2,
@@ -330,7 +331,6 @@ p {
 }
 
 .catalog-main {
-    margin-top: 90px;
     margin-bottom: 90px;
 }
 
@@ -532,8 +532,6 @@ p {
 
 .wide-link {
     display: block;
-    margin-top: 50px;
-    margin-bottom: 100px;
     color: var(--Dark, #131B30);
     text-align: center;
     font-size: 22px;
@@ -546,11 +544,6 @@ p {
 
 .catalog-hero {
     background-image: url(/img/catalog-hero.jpg);
-}
-
-.catalog-category {
-    padding-top: 30px;
-    padding-bottom: 35px;
 }
 
 .catalog-category__list {
@@ -854,7 +847,7 @@ p {
 }
 
 .catalog__pagination {
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -955,13 +948,11 @@ p {
     margin: 0;
 }
 
-.tags .container {
+.tags {
     display: flex;
     align-items: center;
     gap: 15px;
     flex-wrap: wrap;
-    margin-top: 90px;
-    margin-bottom: 20px;
 }
 
 .tag {
@@ -973,10 +964,6 @@ p {
 .tag--active {
     background: var(--Secondary, #2C3754);
     color: #fff;
-}
-
-.news-catalog {
-    padding-bottom: 100px;
 }
 
 .news-catalog .news__list {
@@ -1092,11 +1079,6 @@ p {
     left: 45px;
 }
 
-.policy__info {
-    padding-top: 40px;
-    padding-bottom: 200px;
-}
-
 .policy__info p {
     color: var(--Secondary, #2C3754);
     font-size: 16px;
@@ -1111,8 +1093,7 @@ p {
 }
 
 .page-404 .container {
-    padding-top: 100px;
-    padding-bottom: 170px;
+    padding: 100px 0;
 }
 
 .page-404 img {
@@ -1142,13 +1123,6 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    /* 24px */
-    margin-bottom: 35px;
-}
-
-.delivery__info .container {
-    padding-top: 40px;
-    padding-bottom: 90px;
 }
 
 .contacts__content .container {
@@ -1165,7 +1139,7 @@ p {
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
-    margin: 30px auto;
+    margin: 50px auto;
 }
 
 .contacts__item {
@@ -1296,19 +1270,21 @@ p {
 }
 
 .about-us__text {
-    margin: 70px auto;
+    margin: 50px auto;
     color: var(--Secondary, #2C3754);
 }
 
 .player {
-    margin-top: 30px;
-    margin-bottom: 100px;
+    margin: 30px 0;
 }
 
 .player img {
     width: 100%;
 }
 
+.home .discription h2 {
+    text-align: left;
+}
 .discription h2 {
     text-align: center;
 }
@@ -1341,7 +1317,7 @@ p {
 }
 
 .reviews {
-    padding: 90px 0;
+    padding: 50px 0;
     text-align: center;
     background: var(--Light-grey, #F7F7F7);
 }
@@ -1365,7 +1341,7 @@ p {
 }
 
 .awards {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .awards h2 {
@@ -1689,7 +1665,7 @@ p {
 }
 
 footer {
-    padding-top: 55px;
+    padding-top: 30px;
     padding-bottom: 20px;
     background: #131B30;
     color: #fff;
@@ -2235,10 +2211,6 @@ li {
 
     .catalog__filter {
         display: none;
-    }
-
-    .tags .container {
-        margin-top: 40px;
     }
 
     .portfolio__menu {
